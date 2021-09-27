@@ -57,17 +57,17 @@ def place_entities(
             if random.random() > 0.9:
                 entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.8:
-                entity_factories.cat.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.7:
-                entity_factories.dog.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.6:
-                entity_factories.badger.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.5:
-                entity_factories.cat.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.4:
-                entity_factories.cat.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.3:
-                entity_factories.cat.spawn(dungeon, x, y)
+                entity_factories.sam.spawn(dungeon, x, y)
             elif random.random() > 0.2:
                 entity_factories.orc.spawn(dungeon, x, y)
             else:
