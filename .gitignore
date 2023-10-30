@@ -5,3 +5,5 @@ tmp/
 
 # Saved games
 *.sav
+.direnv
+.devenv
