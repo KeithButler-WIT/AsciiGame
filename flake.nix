@@ -26,6 +26,7 @@
               packages = with pkgs; [
                 python3.pkgs.flake8
                 python3.pkgs.black
+                python3.pkgs.numpy
                 # python3.pkgs.tcod
               ];
 
